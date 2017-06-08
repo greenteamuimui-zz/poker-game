@@ -10,7 +10,7 @@ class Card
   end
 
   def to_s
-    if value == 14
+    if value == 14  #Deck will start wirh 2 to 14 where 2 is the lowest card, 14 is Ace
       "A-#{@suit}"
     elsif value == 11
       "J-#{@suit}"
